@@ -15,6 +15,9 @@
 		BB15C9911C13AAD0009EF50B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB15C98F1C13AAD0009EF50B /* LaunchScreen.storyboard */; };
 		BB15C99C1C13AAD0009EF50B /* LightpaintingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15C99B1C13AAD0009EF50B /* LightpaintingTests.m */; };
 		BB15C9A71C13AAD0009EF50B /* LightpaintingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15C9A61C13AAD0009EF50B /* LightpaintingUITests.m */; };
+		BB15C9B51C13AB99009EF50B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB15C9B41C13AB99009EF50B /* CoreMotion.framework */; };
+		BBBEE45F1C14C05B009D2648 /* SquareView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBEE45E1C14C05B009D2648 /* SquareView.m */; };
+		BBC48C1B1C1F81DC00A17BC7 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = BBC48C1A1C1F81DC00A17BC7 /* test.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		BB15C9A21C13AAD0009EF50B /* LightpaintingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightpaintingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB15C9A61C13AAD0009EF50B /* LightpaintingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightpaintingUITests.m; sourceTree = "<group>"; };
 		BB15C9A81C13AAD0009EF50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB15C9B41C13AB99009EF50B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		BBBEE45D1C14C05B009D2648 /* SquareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareView.h; sourceTree = "<group>"; };
+		BBBEE45E1C14C05B009D2648 /* SquareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareView.m; sourceTree = "<group>"; };
+		BBC48C1A1C1F81DC00A17BC7 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB15C9B51C13AB99009EF50B /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +93,7 @@
 				BB15C99A1C13AAD0009EF50B /* LightpaintingTests */,
 				BB15C9A51C13AAD0009EF50B /* LightpaintingUITests */,
 				BB15C97F1C13AAD0009EF50B /* Products */,
+				BB15C9B41C13AB99009EF50B /* CoreMotion.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,10 +114,13 @@
 				BB15C9851C13AAD0009EF50B /* AppDelegate.m */,
 				BB15C9871C13AAD0009EF50B /* ViewController.h */,
 				BB15C9881C13AAD0009EF50B /* ViewController.m */,
+				BBBEE45D1C14C05B009D2648 /* SquareView.h */,
+				BBBEE45E1C14C05B009D2648 /* SquareView.m */,
 				BB15C98A1C13AAD0009EF50B /* Main.storyboard */,
 				BB15C98D1C13AAD0009EF50B /* Assets.xcassets */,
 				BB15C98F1C13AAD0009EF50B /* LaunchScreen.storyboard */,
 				BB15C9921C13AAD0009EF50B /* Info.plist */,
+				BBC48C1A1C1F81DC00A17BC7 /* test.png */,
 				BB15C9811C13AAD0009EF50B /* Supporting Files */,
 			);
 			path = Lightpainting;
@@ -249,6 +261,7 @@
 				BB15C9911C13AAD0009EF50B /* LaunchScreen.storyboard in Resources */,
 				BB15C98E1C13AAD0009EF50B /* Assets.xcassets in Resources */,
 				BB15C98C1C13AAD0009EF50B /* Main.storyboard in Resources */,
+				BBC48C1B1C1F81DC00A17BC7 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +289,7 @@
 				BB15C9891C13AAD0009EF50B /* ViewController.m in Sources */,
 				BB15C9861C13AAD0009EF50B /* AppDelegate.m in Sources */,
 				BB15C9831C13AAD0009EF50B /* main.m in Sources */,
+				BBBEE45F1C14C05B009D2648 /* SquareView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +513,7 @@
 				BB15C9AD1C13AAD0009EF50B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB15C9AE1C13AAD0009EF50B /* Build configuration list for PBXNativeTarget "LightpaintingTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +522,7 @@
 				BB15C9B01C13AAD0009EF50B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB15C9B11C13AAD0009EF50B /* Build configuration list for PBXNativeTarget "LightpaintingUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +531,7 @@
 				BB15C9B31C13AAD0009EF50B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

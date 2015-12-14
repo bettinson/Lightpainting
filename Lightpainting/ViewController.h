@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UILabel *xLabel;
+@property (weak, nonatomic) IBOutlet UILabel *yLabel;
+@property (weak, nonatomic) IBOutlet UILabel *moveLabel;
 
 @end
 
